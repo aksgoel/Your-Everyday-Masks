@@ -1,0 +1,24 @@
+.button {
+    background-color: mediumpurple; /* mediumpurple */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .div{
+    padding: 50px 500px 100px 100px;
+  }
+
+  
+  
