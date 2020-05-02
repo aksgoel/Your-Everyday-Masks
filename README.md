@@ -1,7 +1,7 @@
-# Name of Project: Your Everyday Masks
+# Your Everyday Masks
 
 ## Quick Summary
-Single Page Checkout Page to pre-order a 6 pack of face masks. Powered using Stripe Payment Intent API.
+A single page Checkout application to pre-order a 6 pack of face masks. Powered using Stripe Payment Intent API.
 
 Wireframe: https://whimsical.com/SgvxgC6osmVvNPVipaPFNJ
 
