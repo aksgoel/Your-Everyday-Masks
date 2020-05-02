@@ -5,11 +5,9 @@ Single Page Checkout Page to pre-order a 6 pack of face masks. Powered using Str
 
 Setup Instructions:
 
-Install dependencies using npm:
-### `npm install`
+Install dependencies using npm: ### `npm install`
 
-Copy the environment variables file from the root of the repository:
-### `cp .env.example .env`
+Copy the environment variables file from the root of the repository: ### `cp .env.example .env`
 
 Update `.env` with your own [Stripe API keys](https://dashboard.stripe.com/account/apikeys) and any other configuration details. These environment variables are loaded and used in [`server/node/config.js`](/server/node/config.js), where you can review and edit other options such as the app currency and your Stripe account country.
 
@@ -22,8 +20,7 @@ To start the webhook forwarding run:
     stripe listen --project-name=stripe-payments-demo --forward-to http://localhost:5000/webhook
 
 
-In the project directory, you can run:
-### `npm run start`
+In the project directory, you can run: ### `npm run start`
 
 Logs will be written at the root level with filename 'log.txt'
 
