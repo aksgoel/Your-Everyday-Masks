@@ -2,6 +2,7 @@
 
 ## Quick Summary:
 Single Page Checkout Page to pre-order a 6 pack of face masks. Powered using Stripe Payment Intent API.
+
 Wireframe: https://whimsical.com/SgvxgC6osmVvNPVipaPFNJ
 
 ## Setup Instructions
