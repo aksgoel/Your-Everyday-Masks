@@ -23,7 +23,7 @@ To start the webhook forwarding run:
 
 
 In the project directory, you can run:
-### `npm run`
+### `npm run start`
 
 Logs will be written at the root level with filename 'log.txt'
 
