@@ -30,12 +30,8 @@ Put Webhook Secret Key from Terminal to `.env`
 In the project directory, you can run: 
 ### `npm run start`
 
-Logs will be written at the root level with filename 'log.txt'
+This will run both the server and the client. The Order Logs will be written at the root level with filename 'log.txt' and also available on your Stripe Dashboard.
 
 Server is on port 5000
 
-This runs both the server and the client. Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The page will reload if you make edits.<br /
