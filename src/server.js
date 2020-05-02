@@ -44,7 +44,6 @@ app.post('/webhook', function(request, response) {
     case 'payment_intent.succeeded':
       intent = event.data.object;
       console.log("Succeeded:", intent.id);
-      console.log(JSON.stringify(intent.billing_details));
       fs.appendFile('log.txt', JSON.stringify(intent), function (err) {
         if (err) throw err;
         console.log('Saved!');
