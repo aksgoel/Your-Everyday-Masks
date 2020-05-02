@@ -1,13 +1,16 @@
-Name of Project: Your Everyday Masks
+# Name of Project: Your Everyday Masks
 
-Quick Summary:
+## Quick Summary:
 Single Page Checkout Page to pre-order a 6 pack of face masks. Powered using Stripe Payment Intent API.
+Wireframe: https://whimsical.com/SgvxgC6osmVvNPVipaPFNJ
 
-Setup Instructions:
+## Setup Instructions
 
-Install dependencies using npm: ### `npm install`
+Install dependencies using npm:
+### `npm install`
 
-Copy the environment variables file from the root of the repository: ### `cp .env.example .env`
+Copy the environment variables file from the root of the repository: 
+### `cp .env.example .env`
 
 Update `.env` with your own [Stripe API keys](https://dashboard.stripe.com/account/apikeys) and any other configuration details.
 
@@ -19,16 +22,18 @@ After the installation has finished, authenticate the CLI with your Stripe accou
 To start the webhook forwarding run:
     stripe listen --project-name=stripe-payments-demo --forward-to http://localhost:5000/webhook
 
+Put Webhook Secret Key from Terminal to `.env`
 
-In the project directory, you can run: ### `npm run start`
+## Run Instructions
+
+In the project directory, you can run: 
+### `npm run start`
 
 Logs will be written at the root level with filename 'log.txt'
 
 Server is on port 5000
 
-This runs both the server and the client
-
-Runs the app in the development mode.<br />
+This runs both the server and the client. Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
