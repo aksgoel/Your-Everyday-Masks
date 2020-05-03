@@ -34,4 +34,4 @@ This will run both the server and the client. The Order Logs will be written at 
 
 Server is on port 5000
 
-The page will reload if you make edits.<br /
+The page will reload if you make edits.
