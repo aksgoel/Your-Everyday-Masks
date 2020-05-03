@@ -23,7 +23,7 @@ After the installation has finished, authenticate the CLI with your Stripe accou
 To start the webhook forwarding run:
     stripe listen --project-name=stripe-payments-demo --forward-to http://localhost:5000/webhook
 
-Put Webhook Secret Key from Terminal to `.env`
+This will output a Webhook Secret Key in your terminal. Copy this Key into the placeholder in `.env`
 
 ## Run Instructions
 
