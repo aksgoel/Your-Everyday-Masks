@@ -32,6 +32,6 @@ In the project directory, you can run:
 
 This will run both the server and the client. The Order Logs will be written at the root level with filename 'log.txt' and also available on your Stripe Dashboard.
 
-Server is on port 5000
+Server is on port 5000. The page will reload if you make edits.
 
-The page will reload if you make edits.
+Enjoy!!!
